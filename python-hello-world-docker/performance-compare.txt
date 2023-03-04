@@ -1,0 +1,12 @@
+[shelf@localhost podman]$ time podman run localhost/python-hello:latest 
+hello world
+
+real	0m0.635s
+user	0m0.063s
+sys	0m0.027s
+[shelf@localhost podman]$ time python -c "print('hello world')"
+hello world
+
+real	0m0.011s
+user	0m0.007s
+sys	0m0.003s
