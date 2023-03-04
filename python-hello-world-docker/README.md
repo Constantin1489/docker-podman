@@ -2,8 +2,8 @@
 
 ## podman
 
-buildah bud -t python-hello .
+`buildah bud -t python-hello .`
 
 ## docker
 
-docker build -t python-hello .
+`docker build -t python-hello .`
